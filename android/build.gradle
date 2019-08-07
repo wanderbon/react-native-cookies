@@ -4,6 +4,7 @@ def safeExtGet(prop, fallback) {
 
 buildscript {
     repositories {
+        google()
         jcenter()
     }
 
@@ -30,6 +31,7 @@ android {
 }
 
 repositories {
+    google()
     mavenCentral()
 }
 
